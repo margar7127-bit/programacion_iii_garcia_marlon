@@ -1,0 +1,179 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6ec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #8b2e1a;
+}
+
+h3, h4, h5 {
+    color: #b5532b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+header {
+    background-color: #f3d9b1;
+    text-align: center;
+    padding: 15px;
+}
+
+
+nav {
+    background-color: #8b2e1a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+
+
+a {
+    color: #b5532b;
+}
+
+a:hover {
+    color: #8b2e1a;
+}
+
+
+main, section, aside {
+    padding: 15px 20px;
+}
+
+#bienvenida {
+    background-color: #fff3e0;
+}
+
+#introduccion {
+    background-color: #fdebd0;
+}
+
+#platos_destacados {
+    background-color: #fff3e0;
+}
+
+#menu {
+    background-color: #fdebd0;
+}
+
+#horarios {
+    background-color: #e8f0e0;
+}
+
+#pedidos {
+    background-color: #f3d9b1;
+    text-align: center;
+}
+
+aside {
+    background-color: #e8f0e0;
+}
+
+
+.usuario {
+    margin-bottom: 0;
+}
+
+.estrellas {
+    color: #e0a800;
+    margin: 2px 0;
+}
+
+.opinion {
+    font-style: italic;
+}
+
+
+footer {
+    background-color: #5a1f12;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer h4 {
+    color: #f3d9b1;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #8b2e1a;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid #d9b99b;
+    padding: 8px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #8b2e1a;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fdf6ec;
+}
+
+tfoot th {
+    background-color: #f3d9b1;
+    color: #5a1f12;
+}
+
+
+form {
+    padding: 10px 20px;
+}
+
+fieldset {
+    background-color: #fff3e0;
+    border: 1px solid #d9b99b;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    color: #8b2e1a;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+    padding: 5px;
+    border: 1px solid #d9b99b;
+    border-radius: 4px;
+}
