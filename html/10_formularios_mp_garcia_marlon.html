@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido</title>
+</head>
+<body>
+   
+<form action="#" method="post">
+    <h2>Realizar un pedido</h2>
+    <p>Completa el formulario para realizar tu pedido en La Casona.</p>
+
+    <fieldset>
+        <legend>Datos del cliente</legend>
+
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre"
+               placeholder="Ingresa tu nombre" required>
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"
+               placeholder="0999999999" required>
+        <br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"
+               placeholder="correo@ejemplo.com">
+        <br><br>
+
+        <label for="direccion">Dirección de entrega:</label>
+        <input type="text" id="direccion" name="direccion"
+               placeholder="Ingresa tu dirección">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Detalles del pedido</legend>
+
+        <label for="plato">Selecciona tu plato:</label>
+        <select id="plato" name="plato" required>
+            <option value=""> Selecciona un plato</option>
+            <option value="desayuno">Chuleta de Cerdo</option>
+            <option value="almuerzo">Camarones Apanados</option>
+            <option value="carne">Encocado de Pescado</option>
+            <option value="pollo">Tilapia</option>
+            <option value="pescado">Cangrejo</option>
+            <option value="ensalada">Ensalada</option>
+            <option value="postre">Postre</option>
+            <option value="bebida">Bebida</option>
+        </select>
+        <br><br>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad"
+               min="1" value="1" required>
+        <br><br>
+
+        <label for="tipo">Tipo de pedido:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="">-- Selecciona una opción --</option>
+            <option value="local">Consumir en el restaurante</option>
+            <option value="llevar">Para llevar</option>
+            <option value="domicilio">Entrega a domicilio</option>
+        </select>
+        <br><br>
+
+        <label for="fecha">Fecha del pedido:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
+
+        <label for="hora">Hora preferida:</label>
+        <input type="time" id="hora" name="hora">
+        <br><br>
+
+        <label for="observaciones">Observaciones:</label>
+        <textarea id="observaciones" name="observaciones"
+                  rows="4"
+                  placeholder="Indica preferencias o instrucciones especiales"></textarea>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Forma de pago</legend>
+
+        <input type="radio" id="efectivo" name="pago"
+               value="efectivo" required>
+        <label for="efectivo">Efectivo</label>
+        <br>
+
+        <input type="radio" id="transferencia" name="pago"
+               value="transferencia">
+        <label for="transferencia">Transferencia bancaria</label>
+        <br>
+
+        <input type="radio" id="tarjeta" name="pago"
+               value="tarjeta">
+        <label for="tarjeta">Tarjeta</label>
+    </fieldset>
+
+    <br>
+
+    <button type="submit">Enviar pedido</button>
+    <button type="reset">Limpiar formulario</button>
+</form>
+
+</body>
+</html>
