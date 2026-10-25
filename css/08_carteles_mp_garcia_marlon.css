@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #b67345;
+    color: #F5F5F4;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #D4A373;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.plato {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 3px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.plato h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.plato p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.limitado {
+    background-color: #7F1D1D;
+    color: #FECACA;
+}
+
+.disponible {
+    background-color: #14532D;
+    color: #BBF7D0;
+}
+
+.agotado {
+    background-color: #44403C;
+    color: #D6D3D1;
+}
+
+#menu-principal .plato {
+    background-color: #292524;
+    border-color: #D4A373;
+}
+
+#menu-principal h2 {
+    color: #D4A373;
+}
+
+#historial .plato {
+    background-color: #292524;
+    border-color: #A8A29E;
+}
+
+#historial h2 {
+    color: #A8A29E;
+}
+
+#informacion h2 {
+    color: #D4A373;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6ad9f;
+}
+
+nav a {
+    color: #2c1805;
+    margin: 15px;
+}
+
+.volver-arriba {
+    color: #D4A373;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #292524;
+}

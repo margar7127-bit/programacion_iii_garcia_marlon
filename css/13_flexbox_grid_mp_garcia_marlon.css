@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1C1917;
+    color: white;
+}
+
+.menu {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background-color: #292524;
+}
+
+.platillo {
+    padding: 20px;
+    background-color: #78350F;
+    border: 2px solid #D4A373;
+}
+
+.especialidades {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: #292524;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background-color: #292524;
+}
+
+.servicio {
+    padding: 30px;
+    background-color: #166534;
+    border: 2px solid #D4A373;
+    text-align: center;
+}
+
+.areas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 130px 90px;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    background-color: #292524;
+}
+
+.areas div {
+    padding: 30px;
+    background-color: #166534;
+    border: 2px solid #D4A373;
+    text-align: center;
+}
+
+.bebidas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    color: white;
+    background-color: #292524;
+}
+
+.bebidas div {
+    padding: 30px;
+    background-color: #92400E;
+    border: 2px solid #86A873;
+    text-align: center;
+}
+
+.menu-completo {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    background-color: #292524;
+}
+
+.postres {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background-color: #292524;
+}
+
+.postres div {
+    padding: 30px;
+    background-color: #78350F;
+    border: 2px solid #D4A373;
+    text-align: center;
+}
+
+.promociones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background: #292524;
+}
+
+.promociones div {
+    padding: 30px;
+    background-color: #78350F;
+    border: 2px solid #D4A373;
+    text-align: center;
+}
+
+.promocion-destacada {
+    grid-column: span 2;
+    padding: 30px;
+    background-color: #166534 !important;
+    border: 2px solid #D4A373;
+    text-align: center;
+}
+
+.promocion-principal {
+    grid-row: span 2;
+    padding: 30px;
+    background-color: #166534 !important;
+    border: 2px solid #D4A373;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color:burlywood;
+    color: rgb(244, 224, 224);
+    font: arial, sans-serif;
+}
+
+header{
+    background-color: coral;
+}
+h1{
+    color: #facc15
+}
+main {
+    padding: 20px;
+}
+.tarjeta h3 {
+    margin-top: 0;
+    color:#facc15
+}
+.tarjeta {
+    width: 100%;
+    max-width: 350px;
+    min-height: 100px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #172033;
+    border: 3px solid #facc15;
+    border-radius: 15 px;
+}
+.marisco{
+    border-color:#0fd8e7;
+}
+.carne{
+    border-color:#6d1111;
+}
+footer {
+    background-color: coral;
+    padding: 15px;
+    text-align: center;
+}

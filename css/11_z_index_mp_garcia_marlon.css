@@ -1,0 +1,32 @@
+.escenario{
+    position: relative;
+    height:280px;
+}
+.caja{
+    position:absolute;
+    width: 150px;
+    height: 110px;
+    padding: 20px;
+    color:rgb(2, 0, 0);
+    font-weight: bold;
+}
+
+.chuleta{
+    top: 20px;
+    left: 20px;
+    background-color: #25ebcdb3;
+
+}
+.camarones{
+    top: 60px;
+    left: 80px;
+    background-color: #ffcf7d;
+    z-index: 2;
+}
+
+.cangrejada{
+    top: 100px;
+    left: 140px;
+    background-color: rgb(104, 76, 175);
+    z-index: 3;
+}
