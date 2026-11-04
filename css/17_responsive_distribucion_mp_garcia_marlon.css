@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1C1210;
+    color: #F5E6D3;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Mobile First */
+
+/* Encabezado */
+
+.encabezado {
+    padding: 2rem 1rem;
+    background-color: #2A1B16;
+    text-align: center;
+    border-bottom: 3px solid #F59E0B;
+}
+
+.encabezado h1 {
+    font-size: 2rem;
+    color: #F59E0B;
+}
+
+/* Menú móvil */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+
+    padding: 1rem;
+    background-color: #3B2820;
+}
+
+.menu a {
+    color: #F59E0B;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Distribución móvil */
+
+.distribucion {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+
+    width: 92%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+/* Contenido principal */
+
+.principal {
+    min-width: 0;
+    padding: 1.25rem;
+    background-color: #2A1B16;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #FDBA74;
+}
+
+/* Especiales: una columna */
+
+.especiales {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+}
+
+.especial {
+    padding: 1.25rem;
+    background-color: #402E25;
+    border: 1px solid #8B5E3C;
+    border-radius: 10px;
+}
+
+.especial h3 {
+    color: #F59E0B;
+}
+
+/* Equipo de cocina */
+
+#cocina {
+    margin-top: 2rem;
+}
+
+.cocina {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+}
+
+.cocinero {
+    padding: 1.25rem;
+    background-color: #402E25;
+    border: 2px solid #84CC16;
+    border-radius: 10px;
+}
+
+.cocinero h3 {
+    color: #F59E0B;
+}
+
+/* Panel lateral */
+
+.lateral {
+    min-width: 0;
+    padding: 1.5rem;
+    background-color: #402E25;
+    border-left: 4px solid #F59E0B;
+    border-radius: 10px;
+}
+
+.lateral ul {
+    padding-left: 1.5rem;
+}
+
+.estado {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #15803D;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Pie de página */
+
+footer {
+    padding: 1.5rem;
+    background-color: #2A1B16;
+    text-align: center;
+}
+
+footer a {
+    color: #F59E0B;
+}
+
+/* Tabletas: desde 600px */
+
+@media (min-width: 600px) {
+
+    .encabezado h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .especiales {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .cocina {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+/* Computadoras: desde 1000px */
+
+@media (min-width: 1000px) {
+
+    .encabezado h1 {
+        font-size: 3rem;
+    }
+
+    .distribucion {
+        grid-template-columns:
+            minmax(0, 3fr) minmax(240px, 1fr);
+    }
+
+    .principal {
+        padding: 2rem;
+    }
+
+    .especiales {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .cocina {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+    }
+
+}
