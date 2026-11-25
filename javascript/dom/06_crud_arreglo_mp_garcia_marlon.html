@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante La Casona</title>
+    <script src="06_crud_arreglo_mp_garcia_marlon.js" defer></script>
+</head>
+<body>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="escribe el nombre">
+        <select id="categoria">
+            <option value="comida rapida">Comida Rapida</option>
+            <option value="pizzas">Pizzas</option>
+            <option value="ensaladas">Ensaladas</option>
+            <option value="bebidas">Bebidas</option>
+            <option value="postres">Postres</option>
+        </select>
+
+        <input type="number" id="precio" placeholder="Precio" step="0.01" min="0" required>
+        <select id="disponibilidad">
+            <option value="disponible">Disponible</option>
+            <option value="Agotado">Agotado</option>
+        </select>
+        <button type="submit" id="guardar">Agregar</button>
+        <button type="button" id="cancelar" hidden>
+            Cancelar
+        </button>
+    </form>
+
+    <h2>Menú del restaurante</h2>
+    <div id="cantidad"></div>
+    <div id="contenedor"></div>
+</body>
+</html>
